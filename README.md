@@ -1,5 +1,7 @@
 # syscallnrs
 
+![Crates.io Version](https://img.shields.io/crates/v/syscallnrs)
+
 Uses your system's `syscall.h` to build mappings from system call names to numbers. It provides three such mappings:
 
   - `SYSCALLS`, a static slice of pairs of system call names and numbers;
