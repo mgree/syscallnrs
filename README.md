@@ -10,8 +10,10 @@ The code for these is generated statically. Both functions are generated as larg
 
 To use this in your project:
 
+```
 [dependencies]
 syscallnrs = "0.1"
+```
 
 ## Requirements
 
