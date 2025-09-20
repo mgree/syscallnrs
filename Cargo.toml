@@ -1,0 +1,14 @@
+[package]
+name = "syscallnrs"
+version = "0.1.0"
+authors = ["Michael Greenberg <michael@greenberg.science>"]
+description = "Uses your systems <syscall.h> to build maps from system call numbers to names (and vice versa)."
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/mgree/syscallnrs"
+keywords = ["Linux", "syscall", "mapping"]
+categories = ["development-tools::ffi", "os::linux-apis"]
+edition = "2024"
+build = "src/build.rs"
+
+[dependencies]
