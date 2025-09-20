@@ -10,5 +10,9 @@ keywords = ["Linux", "syscall", "mapping"]
 categories = ["development-tools::ffi", "os::linux-apis"]
 edition = "2024"
 build = "src/build.rs"
+exclude = [
+    ".github/*",
+    ".gitignore",
+]
 
 [dependencies]
