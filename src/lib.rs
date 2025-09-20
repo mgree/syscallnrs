@@ -1,3 +1,5 @@
+#![cfg_attr(not(test), no_std)]
+
 include!(concat!(env!("OUT_DIR"), "/syscall_table.rs"));
 
 #[cfg(test)]
