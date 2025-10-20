@@ -1,6 +1,6 @@
 [package]
 name = "syscallnrs"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Michael Greenberg <michael@greenberg.science>"]
 description = "Uses your systems <syscall.h> to build maps from system call numbers to names (and vice versa)."
 readme = "README.md"
